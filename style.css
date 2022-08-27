@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(238,238,238) !important;
+    background-image: url('https://external-preview.redd.it/Tf2MC-orVRAI8OL5tjyF4k4H2Q6QLHTWllekGfqdt3c.png?width=960&crop=smart&auto=webp&s=be4ab9a2fa3ca2f7011799377f118a8dbc64aacb');
+    background-size: cover;
+    font-family: 'Macondo', cursive;
+}
+*{
+    font-family: 'Macondo', cursive;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #198754;
+}
+audio:hover , audio:focus , audio:active{
+    transform: scale(1.05);
+}
+audio {
+    width: 300px;
+    height: 30px;
+    transition: all 0.5s linear;    
+}
+audio::-webkit-media-controls-current-time-display {
+    color: #fff;
+}
+
+canvas{
+    filter: blur(3px);
+    position: fixed;
+}
+
+.title{
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+}
+.title span{
+    background-color:#1f8656;
+    color:#000 ;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.blog{
+    background-color: rgb(176, 225, 179, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.blog img{
+    width: 100%;
+    height: 40vh;
+}
+.btn-outline-secondary{
+    border-radius: 0px !important;
+}
+.blog span{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 14px;
+}
+.blog a{
+    text-decoration: none;
+    color: #000;
+}
+.blog a span{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.blog a:hover {
+    color: #ffffff;
+}
+.profile{
+    background-color: rgb(176, 225, 179, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile img{
+    width: 100%;
+}
+.popular-post{
+    background-color: rgb(176, 225, 179, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.popular-post h5{
+    background-color: #198754;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+.border-radius{
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+.popular-post img{
+    margin-top: -8px;
+    width: 20%;
+    padding: 15px;
+}
+.popular-post h6{
+    position: relative;
+    top:8px;
+}
+.popular-post a{
+    text-decoration: none;
+    color: #000;
+}
+.popular-post a:hover {
+    color: #ffffff;
+}
+.tags{
+    background-color: rgb(176, 225, 179, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tags h5{
+    background-color: #198754;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+.tags a{
+    text-decoration: none;
+    color: #000;
+    background-color: #198754;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.tags a:hover {
+    color: #ffffff;
+}
+#span {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+@media  (max-width: 376px) {
+    .blog a{
+        margin: -50px;
+    }
+}
+@media  (max-width: 769px) {
+    .blog a{
+        margin: -40px;
+    }
+}
+
+@media  (max-width: 1200px) {
+    .popular-post img{
+        width: 40%;
+        height: 40%;
+    }
+}
+
+.soon h1{
+    color: rgb(255, 255, 255);
+}
+#soon a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#soon .btn{
+    background-color:#198754;
+}
