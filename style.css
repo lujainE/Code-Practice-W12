@@ -130,10 +130,18 @@ canvas{
     .blog a{
         margin: -50px;
     }
+    .blog .btn{
+        width: 30%;
+        font-size: 12px;
+    }
 }
 @media  (max-width: 769px) {
     .blog a{
         margin: -40px;
+    }
+    .blog .btn{
+        width: 40%;
+        font-size: 14px;
     }
 }
 
