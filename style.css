@@ -21,7 +21,6 @@ audio {
 audio::-webkit-media-controls-current-time-display {
     color: #fff;
 }
-
 canvas{
     filter: blur(3px);
     position: fixed;
