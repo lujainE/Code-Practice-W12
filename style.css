@@ -131,8 +131,8 @@ canvas{
         margin: -50px;
     }
     .blog .btn{
-        width: 30%;
-        font-size: 12px;
+        width: 30% !important;
+        font-size: 12px !important;
     }
 }
 @media  (max-width: 769px) {
