@@ -130,7 +130,7 @@ canvas{
     .blog a{
         margin: -50px;
     }
-    .blog #btn{
+    .blog .btn{
         width: 30% !important;
         font-size: 12px !important;
     }
@@ -139,7 +139,7 @@ canvas{
     .blog a{
         margin: -40px;
     }
-    .blog #btn{
+    .blog .btn{
         width: 40%;
         font-size: 14px;
     }
